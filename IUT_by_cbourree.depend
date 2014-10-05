@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1412510042 source:c:\users\françois\documents\charles_github\iut\fonctions_nbr.c
+	"header.h"
+
+1412510371 source:c:\users\françois\documents\charles_github\iut\fonctions_str.c
+	"header.h"
+
+1412510042 source:c:\users\françois\documents\charles_github\iut\fonctions_iut.c
+	"header.h"
+
+1412509957 source:c:\users\françois\documents\charles_github\iut\main.c
+	"header.h"
+
+1412510236 c:\users\françois\documents\charles_github\iut\header.h
+	<unistd.h>
+
+1412510042 c:\users\françois\documents\charles_github\iut\fonctions_iut.c
+	"header.h"
+
+1412510042 c:\users\françois\documents\charles_github\iut\fonctions_nbr.c
+	"header.h"
+
+1412510120 c:\users\françois\documents\charles_github\iut\fonctions_str.c
+	"header.h"
+
