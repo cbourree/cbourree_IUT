@@ -1,5 +1,7 @@
 #include "header.h"
 
+/* Ce fichier contient toutes les fonctions qui consernent les chaines de caractères */
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
