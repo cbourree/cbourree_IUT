@@ -48,3 +48,22 @@
 1412673485 e:\git\iut_info\fonctions_str.c
 	"header.h"
 
+1413116980 source:f:\git\iut_info\fonctions_nbr.c
+	"header.h"
+
+1412686090 f:\git\iut_info\header.h
+	<stdlib.h>
+	<unistd.h>
+	<stdio.h>
+	<conio.h>
+	<time.h>
+
+1412673485 source:f:\git\iut_info\fonctions_str.c
+	"header.h"
+
+1413117411 source:f:\git\iut_info\main.c
+	"header.h"
+
+1413119112 source:f:\git\iut_info\fonctions_iut.c
+	"header.h"
+

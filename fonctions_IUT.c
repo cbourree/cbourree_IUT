@@ -12,6 +12,30 @@
 
 /*======================== TP5 ===============================*/
 
+void		fu_chrono()
+{
+	int		seconde = 0;
+	long	time;
+
+	while (1)
+	{
+		time = clock();
+		while (clock() - time < CLOCKS_PER_SEC)
+			;
+		seconde++;
+		printf("\n\n\n\n\n\n\n\n\n\n\t\t\t\t----------------\n\t\t\t\t| %2hd : %2hd : %2hd |\n\t\t\t\t----------------\n\n\n\n\n\n\n\n\n\n\n\n", seconde / 60, (seconde / 60) % 60, seconde % 60);
+	}
+}
+
+short		fu_est_premier(short nb)
+{
+	int		i = 1;
+
+	while (i++ < nb / 2)
+		if (nb % i == 0)
+			return (0);
+	return (1);
+}
 
 short      fu_entre_nombre(short min, short max)
 {
@@ -102,7 +126,7 @@ short   fu_main_devinette()
         else if (nb_saisie > nb_random)
             ft_putstr("C'est moins !!!");
         else
-            printf("Bravo !! vous avez gagner en %hd coups", nb_coup);
+            printf("Bravo !! Vous avez gagner en %hd coups", nb_coup);
 
     } while (nb_saisie != nb_random);
 

@@ -5,7 +5,7 @@ dans ce projet. Créer par Charles B. : cbourree@hotmail.fr pour Windows*/
 
 int main()
 {
-    fu_main_devinette();
+    fu_chrono();
     /*
     short	tp = -1, fonction = -1;
 

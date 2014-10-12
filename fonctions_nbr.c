@@ -4,24 +4,18 @@
 
 void    ft_putnbr(short nb)
 {
-    short reverse_nb = 0;
-
     if (nb < 0)
     {
         ft_putchar('-');
         nb = -nb;
     }
-    while (nb > 0)
-    {
-        reverse_nb *= 10;
-        reverse_nb += nb % 10;
-        nb /= 10;
-    }
-    while (reverse_nb > 0)
-    {
-        ft_putchar('0' + (reverse_nb % 10));
-        reverse_nb /= 10;
-    }
+    if (nb >= 10)
+	{
+		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
+	}
+	else
+		ft_putchar(nb + '0');
 }/* Affiche un nombre */
 
 short     ft_atoi(char *str)
