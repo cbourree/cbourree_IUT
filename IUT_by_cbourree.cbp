@@ -31,12 +31,23 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="fonctions_IUT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_nbr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctions_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
